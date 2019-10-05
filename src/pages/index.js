@@ -15,7 +15,7 @@ export default class Index extends Component {
     
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Mobile Developer`} />
+        <Helmet title={`${config.siteTitle} – Web Developer`} />
         <SEO />
         <div className="container">
           <div className="lead">
