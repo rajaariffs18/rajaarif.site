@@ -5,25 +5,25 @@ export default class Footer extends Component {
     return (
       <footer className="footer container">
         <div>
-        <strong>Ihwan ID</strong>
+        <strong>Raja Arif</strong>
           {' '}
 /
           {' '}
-          <a href="https://twitter.com/@ihwan_id" target="_blank">
+          <a href="https://twitter.com/Rajaariffadsi" target="_blank">
             Twitter
           </a>
           {' '}
           /
           {' '}
-          <a href="https://github.com/ihwanid" target="_blank">
+          <a href="https://github.com/rajaariffs18" target="_blank">
             GitHub
           </a>
           {' '}
           /
           {' '}
-          <a href="https://github.com/ihwanid/ihwan.id" target="_blank">
+          {/* <a href="https://github.com/ihwanid/ihwan.id" target="_blank">
             View source
-          </a>
+          </a> */}
         </div>
       </footer>
     )
