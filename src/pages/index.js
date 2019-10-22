@@ -10,8 +10,14 @@ import photo from '../../content/images/me-lite.png'
 
 export default class Index extends Component {
   render() {
-    const latestPostEdges = this.props.data.latest.edges
-    const popularPostEdges = this.props.data.popular.edges
+
+    // if(!this.props.data.latest){
+      const latestPostEdges = this.props.data.latest.edges
+    // }
+
+    
+    
+    // const popularPostEdges = this.props.data.popular.edges
     
     return (
       <Layout>
@@ -63,13 +69,16 @@ export default class Index extends Component {
         <div className="container">
           <section className="section">
             <h2>Latest Articles</h2>
-            <PostListing simple postEdges={latestPostEdges} />
+            {
+            
+              (!this.props.data.latest) ? <PostListing simple postEdges={latestPostEdges} /> : <p>Data Kosong</p>
+            }
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Most Popular</h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          </section> */}
         </div>
       </Layout>
     )

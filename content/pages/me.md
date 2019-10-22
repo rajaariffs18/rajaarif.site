@@ -4,22 +4,12 @@ slug: me
 template: page
 ---
 
-Halo saya Ihwan, seorang  Mobile Developer, penulis dan pembelajar sepanjang masa asal Majalengka. Saya senang menulis dan membuat video, beberapa portofolio tulisan dan video saya bisa dilihat di blog ini dan channel youtube saya. 
-
-Awalnya saya membuat blog ini untuk mendokumentasikan apapun yang sudah saya pelajari dan berbagi pengalaman yang sudah saya alami. Semoga blog ini bisa berguna dan membantu para pembaca sekalian. 
-
-![Me](../images/me.jpg)
-
-### Portofolio
-
-- GitHub: [IhwanID](https://github.com/IhwanID)
-- Youtube: [IhwanD](https://youtube.com/ihwand)
-- Medium: [ihwanid](https://medium.com/@ihwanid)
+![Me](../images/foto-circle-small.png)
 
 
-## Currently Using
+Halo saya Raja Arif Fadillah, saya seorang web developer, sangat senang dengan teknologi baru tentang programming. Saya sekarang sedang tinggal di Medan dan bekerja di salah satu software house yang ada di Medan.
 
-- **Computer:** MacBook Pro 2012, Acer E5 475G
-- **Hosting:** [Netlify](https://netlify.com)
-- **Editor:** [Visual Studio Code](https://code.visualstudio.com/),[Android Studio](https://developer.android.com/studio)
-- **Programming Language:** Java, Kotlin, Dart, PHP, Go
+Mempunyai pengetahuan HTML, CSS, Javascript, dan PHP, sekarang sedang senang untuk belajar reactJS.
+
+Tujuan saya membuat blog ini sebagai tempat saya untuk belajar menulis, belajar berbagi tentang semua hal yang dapat saya bagi, serta tempat bagi saya untuk menulis pengalaman saya.
+

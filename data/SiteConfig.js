@@ -28,14 +28,14 @@ const config = {
       name: 'Articles',
       link: '/blog/',
     },
-    {
-      name: 'Now',
-      link: '/now/',
-    },
-    {
-      name: 'Contact',
-      link: '/contact/',
-    },
+    // {
+    //   name: 'Now',
+    //   link: '/now/',
+    // },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact/',
+    // },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
