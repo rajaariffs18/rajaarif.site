@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import youtube from '../images/youtube.svg'
-import me from '../../content/images/me.jpg'
+import me from '../../content/images/foto-circle-small.png'
 
 export default class UserInfo extends Component {
   render() {
@@ -9,13 +9,13 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <p>
-             I'm Ihwan, a Mobile Software Developer Specializing in Android and iOS from Majalengka.
+              I'm Raja Arif , a Web  Developer Specializing from Medan.
             </p>
-            <a href="https://youtube.com/ihwand" className="donate-button" target="_blank">
+            {/* <a href="https://youtube.com/ihwand" className="donate-button" target="_blank">
               Support My Channel
               {' '}
             <img src={youtube} className="coffee-icon" />
-            </a>
+            </a> */}
           </div>
           <div className="flex-avatar">
             <img className="avatar" src={me} />

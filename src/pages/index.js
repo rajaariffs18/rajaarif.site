@@ -11,7 +11,9 @@ import photo from '../../content/images/me-lite.png'
 export default class Index extends Component {
   render() {
 
-    // if(!this.props.data.latest){
+    // const latestPostEdges = [];
+
+    // if(this.props.data.latest){
       const latestPostEdges = this.props.data.latest.edges
     // }
 
@@ -71,7 +73,7 @@ export default class Index extends Component {
             <h2>Latest Articles</h2>
             {
             
-              (!this.props.data.latest) ? <PostListing simple postEdges={latestPostEdges} /> : <p>Data Kosong</p>
+              (this.props.data.latest) ? <PostListing simple postEdges={latestPostEdges} /> : <p>Data Kosong</p>
             }
           </section>
 
